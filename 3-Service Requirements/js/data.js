@@ -1,8544 +1,2593 @@
-var data = [
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "611fad243410df536cd6fe1e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "",
-        "incident_id": "",
-        "dictionary_id": null,
-        "event_name": "Minor - Property Misuse",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 20,
-            "calendar": 0,
-            "nanoOfDay": 29822000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Items/Activities",
-                "hide": false,
-                "id": "5f3354ce5ab7c205fc11b61a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:45.602Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:45.602Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [
-        ],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61311fd73410e8536cf4fe62",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "61311fd63410e8536cf4e7be",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 24,
-            "calendar": 0,
-            "nanoOfDay": 48600000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "613121043410e8536cf5fcb0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "613121033410e8536cf5e544",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 31,
-            "calendar": 0,
-            "nanoOfDay": 48600000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614204d23410ef536c0bd36a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf7e7d48e2754c726f0",
-        "incident_id": "614204d13410ef536c0bc845",
-        "dictionary_id": null,
-        "event_name": "Property Misuse",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 33900000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614b73f83410fc536c42b46d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "614b73f73410fc536c4280ff",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 47940000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6154b4d8341104536c4db115",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be2e7d48e2754c6f211",
-        "incident_id": "6154b4d6341104536c4da5ee",
-        "dictionary_id": null,
-        "event_name": "Inappropriate Language",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 49512000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6167338e34110c536cd3987e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "6167338d34110c536cd3879a",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 13,
-            "calendar": 0,
-            "nanoOfDay": 50579000000000
-        },
-        "event_location": "Restroom",
-        "event_location_id": "5eeb94895ab7c405ece4bd49",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616ee2a2341114536c7424bd",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "616ee2a1341114536c741947",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 36456000000000
-        },
-        "event_location": "Bus",
-        "event_location_id": "5d934c45e7d48e2754c81409",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356af5ab7c205fc11b669",
-                "resolution": "Bus Suspension",
-                "resolution_days": 7,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61829e47077b0a2ad0481f11",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353dc5ab7c205fc11b5e7",
-        "incident_id": "61829e46077b0a2ad048139c",
-        "dictionary_id": null,
-        "event_name": "Skip Class",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 2,
-            "calendar": 0,
-            "nanoOfDay": 48000000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6182a46a3410de1384d7a979",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353dc5ab7c205fc11b5e7",
-        "incident_id": "6182a4693410de1384d79e03",
-        "dictionary_id": null,
-        "event_name": "Skip Class",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 3,
-            "calendar": 0,
-            "nanoOfDay": 34762000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Detention",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618559fb3410da172495e0a8",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "618559fa3410da172495c800",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 38355000000000
-        },
-        "event_location": "Other",
-        "event_location_id": "5d934c57e7d48e2754c83e4a",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6195788f3410da17d4e03d5e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6195788e3410da17d4e031dc",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 17,
-            "calendar": 0,
-            "nanoOfDay": 56762000000000
-        },
-        "event_location": "Bus Loading Zone",
-        "event_location_id": "5f3355365ab7c205fc11b62c",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-        
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "611fadef3410df536cd807af",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352ec5ab7c205fc11b5ba",
-        "incident_id": "611fadee3410df536cd7fc8c",
-        "dictionary_id": null,
-        "event_name": "Lying/Cheating",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 20,
-            "calendar": 0,
-            "nanoOfDay": 30308000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6140d22e3410ef536cc1531a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "6140d22d3410ef536cc147f2",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 42275000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356415ab7c205fc11b657",
-                "resolution": "Time Out/Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61649c5734110c536cdd48f1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "61649c5634110c536cdd1f5b",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 11,
-            "calendar": 0,
-            "nanoOfDay": 54950000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Work",
-                "hide": false,
-                "id": "5f3354b75ab7c205fc11b614",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:23.336Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:23.336Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "619bf5c7077b0a3de05a75b8",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "619bf5c6077b0a3de05a6a3e",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 49357000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "619bfdc0077b0a2eccdab83e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "619bfdc0077b0a2eccdaacc2",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 52140000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "611fba6e3410df536ce1acb9",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353a05ab7c205fc11b5de",
-        "incident_id": "611fba6d3410df536ce1a0b2",
-        "dictionary_id": null,
-        "event_name": "Minor - Technology Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 20,
-            "calendar": 0,
-            "nanoOfDay": 33571000000000
-        },
-        "event_location": "Library",
-        "event_location_id": "5f33557f5ab7c205fc11b638",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "No Action Taken",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Items/Activities",
-                "hide": false,
-                "id": "5f3354ce5ab7c205fc11b61a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:45.602Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:45.602Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6165b0db077b0a65f0147e93",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3354435ab7c205fc11b608",
-        "incident_id": "6165b0da077b0a65f0147322",
-        "dictionary_id": null,
-        "event_name": "Vandalism",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 39586000000000
-        },
-        "event_location": "Restroom",
-        "event_location_id": "5eeb94895ab7c405ece4bd49",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6182af0d077b0a2ad05d1b1c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352855ab7c205fc11b5ab",
-        "incident_id": "6182af0c077b0a2ad05d0d07",
-        "dictionary_id": null,
-        "event_name": "Dress Code Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 3,
-            "calendar": 0,
-            "nanoOfDay": 38567000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6183f4763410de13849f441e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352855ab7c205fc11b5ab",
-        "incident_id": "6183f4753410de13849f38a8",
-        "dictionary_id": null,
-        "event_name": "Dress Code Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 35684000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618559fb3410da172495dba9",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "618559fa3410da172495c800",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 38355000000000
-        },
-        "event_location": "Other",
-        "event_location_id": "5d934c57e7d48e2754c83e4a",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6123be253410df536ca86b53",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6123be243410df536ca8602c",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 23,
-            "calendar": 0,
-            "nanoOfDay": 37306000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unclear/Don't know",
-                "hide": false,
-                "id": "5f3354e05ab7c205fc11b623",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:04.691Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:04.691Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "612e65483410e3536cd7d148",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "612e65483410e3536cd7c624",
-        "dictionary_id": null,
-        "event_name": "Disrespect\n                                    ",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 31,
-            "calendar": 0,
-            "nanoOfDay": 43860000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614371ff3410f1536c7fd299",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f58a5ab7c414541d6258",
-        "incident_id": "614371ff3410f1536c7fc175",
-        "dictionary_id": null,
-        "event_name": "Harassment",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 39869000000000
-        },
-        "event_location": "Unknown Location",
-        "event_location_id": "5f3355ef5ab7c205fc11b650",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unclear/Don't know",
-                "hide": false,
-                "id": "5f3354e05ab7c205fc11b623",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:04.691Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:04.691Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616d84f0077b0a68c0ca0b7d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "616d84ef077b0a68c0ca000a",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 18,
-            "calendar": 0,
-            "nanoOfDay": 34084000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6123e4353410df536cd6831c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352855ab7c205fc11b5ab",
-        "incident_id": "6123e4343410df536cd677f9",
-        "dictionary_id": null,
-        "event_name": "Dress Code Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 23,
-            "calendar": 0,
-            "nanoOfDay": 47200000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "No Action Taken",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "613121043410e8536cf5fb16",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "613121033410e8536cf5e544",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 31,
-            "calendar": 0,
-            "nanoOfDay": 48600000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "613125d13410e8536cf93b11",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "613125d03410e8536cf92fe9",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 2,
-            "calendar": 0,
-            "nanoOfDay": 48360000000000
-        },
-        "event_location": "Restroom",
-        "event_location_id": "5eeb94895ab7c405ece4bd49",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 3,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614bedde3410fc536c864d47",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "614beddd3410fc536c864223",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 36600000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616878e234110d536c2f037b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "616878e134110d536c2ef2da",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 48924000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616f0f65341114536c314f47",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352ec5ab7c205fc11b5ba",
-        "incident_id": "616f0f64077b0a41105885f5",
-        "dictionary_id": null,
-        "event_name": "Lying/Cheating",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 48675000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616f0f69341114536c316412",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352ec5ab7c205fc11b5ba",
-        "incident_id": "616f0f68341114536c31521d",
-        "dictionary_id": null,
-        "event_name": "Lying/Cheating",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 48675000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6126908b3410e3536c8053fe",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6126908a3410e3536c8048db",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 25,
-            "calendar": 0,
-            "nanoOfDay": 49522000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61279dc23410e3536c0213c4",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "61279dc13410e3536c01fd8f",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 26,
-            "calendar": 0,
-            "nanoOfDay": 31971000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61279dc23410e3536c0213db",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "61279dc13410e3536c01fd8f",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 26,
-            "calendar": 0,
-            "nanoOfDay": 31971000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615b0b4a34110b536c051c63",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "615b0b4934110b536c051144",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 32880000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "612931d03410e3536ceb8cbe",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "612931cf3410e3536ceb8198",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 48927000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "612fe5353410e8536c481d2d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "612fe5343410e8536c48117d",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 1,
-            "calendar": 0,
-            "nanoOfDay": 56017000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6137c53f3410e8536ce32735",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6137c53e3410e8536ce3149c",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 3,
-            "calendar": 0,
-            "nanoOfDay": 53700000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616ed915077b0a4110864f6e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353a05ab7c205fc11b5de",
-        "incident_id": "616ed914077b0a41108643f9",
-        "dictionary_id": null,
-        "event_name": "Minor - Technology Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 34637000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Adult Attention",
-                "hide": false,
-                "id": "5f3354c15ab7c205fc11b617",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:33.804Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:33.804Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616ed91d341114536c5902b1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353a05ab7c205fc11b5de",
-        "incident_id": "616ed91c341114536c58f73a",
-        "dictionary_id": null,
-        "event_name": "Minor - Technology Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 34637000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Adult Attention",
-                "hide": false,
-                "id": "5f3354c15ab7c205fc11b617",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:33.804Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:33.804Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6182ec2f3410de138457fd78",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "6182ec2e3410de138457f1ee",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 3,
-            "calendar": 0,
-            "nanoOfDay": 54281000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618409443410de1384b9fa2e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "618409433410de1384b9eeb8",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 40941000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "612953053410e3536c332b8a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "612953043410e3536c331f20",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 57660000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61311fd73410e8536cf4fd9d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "61311fd63410e8536cf4e7be",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 24,
-            "calendar": 0,
-            "nanoOfDay": 48600000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614a1dc53410f5536c71b43c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "614a1dc43410f5536c718860",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 46571000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61898a8a077b0a3738966c57",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "61898a8a077b0a37389660e2",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 52538000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6138e2e63410ec536c5ec58c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "6138e2e53410ec536c5eba66",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 1,
-            "calendar": 0,
-            "nanoOfDay": 40320000000000
-        },
-        "event_location": "Bus",
-        "event_location_id": "5d934c45e7d48e2754c81409",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6138e8f33410ec536c65d7b5",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6138e8f23410ec536c65cc81",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 1,
-            "calendar": 0,
-            "nanoOfDay": 42180000000000
-        },
-        "event_location": "Bus",
-        "event_location_id": "5d934c45e7d48e2754c81409",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "613921833410ec536ca0b10e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "613921823410ec536ca0a5e7",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 56577000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61434a633410ef536c75012c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "61434a623410ef536c74f605",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 31255000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61435a063410f1536c28ef09",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61435a053410f1536c28e3e7",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 7,
-            "calendar": 0,
-            "nanoOfDay": 35100000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6151c3783410fe536c56842a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6151c3773410fe536c567907",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 29464000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6152102c3410fe536c91e84b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "6152102b3410fe536c91a46e",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 48907000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614386303410f1536c10566b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "6143862e3410f1536c103155",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 46398000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614386303410f1536c105eac",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "",
-        "incident_id": "6143862e3410f1536c103155",
-        "dictionary_id": null,
-        "event_name": "Select Event Type",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 46380000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614386303410f1536c105f40",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "",
-        "incident_id": "6143862e3410f1536c103155",
-        "dictionary_id": null,
-        "event_name": "Select Event Type",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 46380000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614386303410f1536c10608e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "6143862e3410f1536c103155",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 46398000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614a33273410f5536cf336ba",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33536e5ab7c205fc11b5d2",
-        "incident_id": "614a33263410f5536cf32b93",
-        "dictionary_id": null,
-        "event_name": "Minor - Other",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 52140000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6149d5d33410f5536c1b6fb0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6149d5d23410f5536c1b5236",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 28140000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3357025ab7c205fc11b9ad",
-                "resolution": "No Action Taken",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6151e09e3410fe536c7758be",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "6151e09d3410fe536c774d55",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 36924000000000
-        },
-        "event_location": "Bus",
-        "event_location_id": "5d934c45e7d48e2754c81409",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615e0ade34110b536c2c54b1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "615e0add34110b536c2c4992",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 6,
-            "calendar": 0,
-            "nanoOfDay": 56340000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6149fffe3410f5536c022068",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6149fffd3410f5536c021546",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 38916000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c26e7d48e2754c7b29c",
-                "resolution": "Loss of Privileges",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614a1dc53410f5536c71b4c0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "614a1dc43410f5536c718860",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 46571000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615df87a077b0a5a00fa030d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33524d5ab7c205fc11b5a6",
-        "incident_id": "615df87934110b536c1497dc",
-        "dictionary_id": null,
-        "event_name": "Bullying",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 51660000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Other",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6168674a077b0b5c543da53f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "6168674a34110d536c1fb4ae",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 44194000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614a1dc53410f5536c71b4d1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "614a1dc43410f5536c718860",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 46571000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614b74d43410fc536c509fb6",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "614b74d33410fc536c509490",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 48181000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615614fb341105536c78624b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "615614fb341105536c785725",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 53205000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61568652077b0a5258a146ae",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61568651077b0a5258a13b8f",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 8,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 52200000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c2ae7d48e2754c7c25b",
-                "resolution": "Office",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6167091934110c536c8be35b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f58a5ab7c414541d6258",
-        "incident_id": "6167091834110c536c8bd7ed",
-        "dictionary_id": null,
-        "event_name": "Harassment",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 13,
-            "calendar": 0,
-            "nanoOfDay": 41129000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616865eb34110d536c1daaf6",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "616865ea34110d536c1d9f1f",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 42954000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6168890f077b0b5c543c2d54",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "6168890e077b0b5c543c21e0",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 14,
-            "calendar": 0,
-            "nanoOfDay": 53097000000000
-        },
-        "event_location": "Office",
-        "event_location_id": "5f33559a5ab7c205fc11b644",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6189a5553410da17244f0dc4",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "6189a554077b0a3738ba88ad",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 49500000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c2ae7d48e2754c7c25b",
-                "resolution": "Office",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614a1dc53410f5536c71b4e8",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "614a1dc43410f5536c718860",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 21,
-            "calendar": 0,
-            "nanoOfDay": 46571000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Witness",
-        "role_id": "60a83b5298c7f2b3ef863d2e"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614cde1b3410fd536c2197d0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "614cde1a3410fd536c218caa",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 23,
-            "calendar": 0,
-            "nanoOfDay": 54287000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "614e344d3410fe536c90d725",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "614e344c3410fe536c90ca04",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 24,
-            "calendar": 0,
-            "nanoOfDay": 55366000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6165c804077b0a65f04ea697",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353f65ab7c205fc11b5f0",
-        "incident_id": "6165c80334110c536cbd86e5",
-        "dictionary_id": null,
-        "event_name": "Technology Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 45255000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61941ee73410da17d4d06b3e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61941ee63410da17d4d05fc7",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 16,
-            "calendar": 0,
-            "nanoOfDay": 54399000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6151d6f03410fe536c640bb1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3354295ab7c205fc11b5ff",
-        "incident_id": "6151d6ef3410fe536c64008b",
-        "dictionary_id": null,
-        "event_name": "Use/Possession of Drugs",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 33051000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 5,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61522cce3410fe536cfe922f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61522ccd3410fe536cfd7470",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 9,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 56160000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3357025ab7c205fc11b9ad",
-                "resolution": "No Action Taken",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615df39334110b536c02734e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "615df39234110b536c02682c",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 6,
-            "calendar": 0,
-            "nanoOfDay": 50192000000000
-        },
-        "event_location": "Office",
-        "event_location_id": "5f33559a5ab7c205fc11b644",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61842839077b0a3980b5295b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be2e7d48e2754c6f211",
-        "incident_id": "618428393410de1384e9fcce",
-        "dictionary_id": null,
-        "event_name": "Inappropriate Language",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 48397000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356e25ab7c205fc11b804",
-                "resolution": "Action Pending",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "619bf6de3410dc17f4984423",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934c0ae7d48e2754c75d75",
-        "incident_id": "619bf6dd3410dc17f49838ab",
-        "dictionary_id": null,
-        "event_name": "Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 50251000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "615df87a34110b536c14a302",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "615df87934110b536c1497dc",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 51660000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Other",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61829996077b0a2ad046fee5",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "61829995077b0a2ad046f372",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 3,
-            "calendar": 0,
-            "nanoOfDay": 32700000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6183e912077b0a39804fedbb",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "6183e911077b0a39804fe247",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 32747000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61853222077b1d1ad43eb3a2",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bf0e7d48e2754c7120a",
-        "incident_id": "61853221077b1d1ad43ea82d",
-        "dictionary_id": null,
-        "event_name": "Defiance",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 30538000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6160755434110b536c2e764e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "6160755334110b536c2e6ae2",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 42173000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6166f461077b0a46245052e1",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33536e5ab7c205fc11b5d2",
-        "incident_id": "6166f46034110c536c72df91",
-        "dictionary_id": null,
-        "event_name": "Minor - Other",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 13,
-            "calendar": 0,
-            "nanoOfDay": 35831000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6166f46134110c536c72eb01",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33536e5ab7c205fc11b5d2",
-        "incident_id": "6166f46034110c536c72df91",
-        "dictionary_id": null,
-        "event_name": "Minor - Other",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 13,
-            "calendar": 0,
-            "nanoOfDay": 35831000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61673c8b077b0a4624315b45",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "61673c8a077b0a4624314fd5",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 13,
-            "calendar": 0,
-            "nanoOfDay": 53426000000000
-        },
-        "event_location": "Music Room",
-        "event_location_id": "5f33558f5ab7c205fc11b63e",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616d7664077b0a68c0ac0f88",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "616d7663077b0a68c0ac0416",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 18,
-            "calendar": 0,
-            "nanoOfDay": 29889000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "616d7b60341114536c2c4b44",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "616d7b5f341114536c2c3fd2",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 18,
-            "calendar": 0,
-            "nanoOfDay": 31372000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356f65ab7c205fc11b821",
-                "resolution": "Other Action Taken",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618557f3077b1d1ad42c991f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f60e5ab7c414541d625f",
-        "incident_id": "618557f2077b1d1ad42c8dad",
-        "dictionary_id": null,
-        "event_name": "Theft",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 40140000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Dismissed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618d8b993410da17d4c4189e",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f60e5ab7c414541d625f",
-        "incident_id": "618d8b983410da17d4c40d2a",
-        "dictionary_id": null,
-        "event_name": "Theft",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 11,
-            "calendar": 0,
-            "nanoOfDay": 55813000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61966e063410db17f4ebee06",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "61966e053410db17f4ebe28f",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 18,
-            "calendar": 0,
-            "nanoOfDay": 33246000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61783947077b0a04e0c3e6e6",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "617839473410da1384dff552",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 25,
-            "calendar": 0,
-            "nanoOfDay": 44340000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "617839493410da1384e031f3",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "617839473410da1384dff552",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 25,
-            "calendar": 0,
-            "nanoOfDay": 44340000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "617951583410da1384ba2017",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "617951573410da1384ba14a4",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 29632000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "617aff063410dc138450aee6",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353f65ab7c205fc11b5f0",
-        "incident_id": "617aff03077b0a442c0644ed",
-        "dictionary_id": null,
-        "event_name": "Technology Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 28,
-            "calendar": 0,
-            "nanoOfDay": 52225000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Sensory processing",
-                "hide": false,
-                "id": "61648a27077b0a63281dadbe",
-                "active": true,
-                "deleted": false,
-                "created_date": "2021-10-11T19:01:59.813Z",
-                "created_by": null,
-                "updated_date": "2021-10-11T19:01:59.813Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "619bf260077b0a3de053b845",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "619bf25f077b0a3de053aa39",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 49085000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "619bfd843410dc17f4a4930a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "61645638077b0a6328c4cc7c",
-        "incident_id": "619bfd833410dc17f4a48790",
-        "dictionary_id": null,
-        "event_name": "Eloping",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 22,
-            "calendar": 0,
-            "nanoOfDay": 51907000000000
-        },
-        "event_location": "Off-Campus",
-        "event_location_id": "5f3355965ab7c205fc11b641",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a699b8077b0a48bc4d7e0f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "61a699b7077b0a48bc4d7292",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 56088000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 3,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "617affcb3410dc1384516738",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "617affca3410dc1384515bc5",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 27,
-            "calendar": 0,
-            "nanoOfDay": 53400000000000
-        },
-        "event_location": "Special Event/Assembly/Field Trip",
-        "event_location_id": "5f3355c25ab7c205fc11b64a",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618296613410de1384c8e07a",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f58a5ab7c414541d6258",
-        "incident_id": "618296603410de1384c8d503",
-        "dictionary_id": null,
-        "event_name": "Harassment",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 1,
-            "calendar": 0,
-            "nanoOfDay": 47580000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Peer Attention",
-                "hide": false,
-                "id": "5f3354d45ab7c205fc11b61d",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:52.719Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:52.719Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Investigation",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61842be83410de1384f6c1bd",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61842be73410de1384f6b645",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 49740000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Adult Attention",
-                "hide": false,
-                "id": "5f3354c15ab7c205fc11b617",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:33.804Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:33.804Z",
-                "updated_by": null,
-                "clever_id": null
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a681163410dc17f49be661",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352315ab7c205fc11b59d",
-        "incident_id": "61a681153410dc17f49bdae1",
-        "dictionary_id": null,
-        "event_name": "Abusive Language/Inappropriate",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 49861000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356f65ab7c205fc11b821",
-                "resolution": "Other Action Taken",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "617c4be4077b0a442ca231d0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "617c4be4077b0a442ca2265b",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 10,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 51848000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618edb813410da17d47ad272",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618edb803410da17d47ab0ed",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 55033000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6183f545077b0a39805450eb",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352855ab7c205fc11b5ab",
-        "incident_id": "6183f544077b0a3980544577",
-        "dictionary_id": null,
-        "event_name": "Dress Code Violation\n                                    ",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 35760000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Other",
-                "hide": false,
-                "id": "5f3354d95ab7c205fc11b620",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:57.11Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:57.11Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6184283a3410de1384ea087c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "618428393410de1384e9fcce",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 4,
-            "calendar": 0,
-            "nanoOfDay": 48397000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356e25ab7c205fc11b804",
-                "resolution": "Action Pending",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Unknown Motivation",
-                "hide": false,
-                "id": "5f3354e95ab7c205fc11b626",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:33:12.958Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:33:12.958Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618537673410da17247765c2",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3352855ab7c205fc11b5ab",
-        "incident_id": "618537663410da1724775a4e",
-        "dictionary_id": null,
-        "event_name": "Dress Code Violation",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 31843000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Avoid Tasks/Activities",
-                "hide": false,
-                "id": "5f3354af5ab7c205fc11b611",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:15.247Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:15.247Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618559fa077b1d1ad42e71a4",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "618559fa3410da172495c800",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 38355000000000
-        },
-        "event_location": "Other",
-        "event_location_id": "5d934c57e7d48e2754c83e4a",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618d86a33410da17d4c3246c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618d86a23410da17d4c318f7",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 11,
-            "calendar": 0,
-            "nanoOfDay": 53340000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 15,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Obtain Peer Attention",
-                "hide": false,
-                "id": "5f3354d45ab7c205fc11b61d",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-08-12T02:32:52.719Z",
-                "created_by": null,
-                "updated_date": "2020-08-12T02:32:52.719Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6192d129077b0a2ee49a31d4",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6192d1293410da17d482cdff",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 15,
-            "calendar": 0,
-            "nanoOfDay": 53820000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a5461f077b0a5b0c1d821f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "61a5461e077b0a5b0c1d76a2",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 53400000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618559fa077b1d1ad42e71b4",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f31f5795ab7c414541d6255",
-        "incident_id": "618559fa3410da172495c800",
-        "dictionary_id": null,
-        "event_name": "Fighting",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 5,
-            "calendar": 0,
-            "nanoOfDay": 38355000000000
-        },
-        "event_location": "Other",
-        "event_location_id": "5d934c57e7d48e2754c83e4a",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618945e13410da172473145b",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "618945e03410da17247308e5",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 34532000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61898d2e077b0a373899c371",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61898d2d3410da17242a665f",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 52637000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c21e7d48e2754c7a00a",
-                "resolution": "Conference",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6189a555077b0a3738ba94ab",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "6189a554077b0a3738ba88ad",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 8,
-            "calendar": 0,
-            "nanoOfDay": 49500000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c2ae7d48e2754c7c25b",
-                "resolution": "Office",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c2ae7d48e2754c7c25b",
-                "resolution": "Office",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618edb80077b0a36a08f88aa",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618edb803410da17d47ab0ed",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 55033000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618edb80077b0a36a08f8aa0",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618edb803410da17d47ab0ed",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 55033000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618edb813410da17d47ad377",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618edb803410da17d47ab0ed",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 55033000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618edb813410da17d47ad3d5",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353315ab7c205fc11b5c0",
-        "incident_id": "618edb803410da17d47ab0ed",
-        "dictionary_id": null,
-        "event_name": "Minor - Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 55033000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618ee5f5077b0a36a09c16df",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "618ee5f53410da17d4879caa",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 57961000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Victim",
-        "role_id": "60a83b5298c7f2b3ef863d2f"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "618ee5f63410da17d487a82d",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33524d5ab7c205fc11b5a6",
-        "incident_id": "618ee5f53410da17d4879caa",
-        "dictionary_id": null,
-        "event_name": "Bullying",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 12,
-            "calendar": 0,
-            "nanoOfDay": 57961000000000
-        },
-        "event_location": "Hallway",
-        "event_location_id": "5eeb94845ab7c405ece4bd46",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_motivation_dictionary, ION_DATA_MODEL",
-                "customer_id": "",
-                "dictionary_id": null,
-                "motivation": "Attention Seeking",
-                "hide": false,
-                "id": "5eeb836d5ab7c305ec251a4a",
-                "active": true,
-                "deleted": false,
-                "created_date": "2020-06-18T15:08:29.443Z",
-                "created_by": null,
-                "updated_date": "2020-06-18T15:08:29.443Z",
-                "updated_by": null,
-                "clever_id": null
-            }
-        ],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "6",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6192d129077b0a2ee49a33c2",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6192d1293410da17d482cdff",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 15,
-            "calendar": 0,
-            "nanoOfDay": 53820000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6192d12a3410da17d482e563",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6192d1293410da17d482cdff",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 15,
-            "calendar": 0,
-            "nanoOfDay": 53820000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6192d12a3410da17d482e769",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33533b5ab7c205fc11b5c3",
-        "incident_id": "6192d1293410da17d482cdff",
-        "dictionary_id": null,
-        "event_name": "Minor - Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 15,
-            "calendar": 0,
-            "nanoOfDay": 53820000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a534ea3410dc17f4b192d9",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": null,
-        "incident_id": "61a534e93410dc17f4b1875c",
-        "dictionary_id": null,
-        "event_name": null,
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 47820000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356415ab7c205fc11b657",
-                "resolution": "Time Out/Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a546203410dc17f4cb3f50",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "61a5461e077b0a5b0c1d76a2",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 53400000000000
-        },
-        "event_location": "Art Room",
-        "event_location_id": "5f3355265ab7c205fc11b629",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c30e7d48e2754c7d37a",
-                "resolution": "Detention",
-                "resolution_days": 20,
-                "seclusion_restraint": false
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5d934c1de7d48e2754c79535",
-                "resolution": "Parent Contact",
-                "resolution_days": 0,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": null,
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61956e6f077b0a4fdcfe1481",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3354335ab7c205fc11b602",
-        "incident_id": "61956e6e077b0a4fdcfe0907",
-        "dictionary_id": null,
-        "event_name": "Use/Possession of Tobacco",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 17,
-            "calendar": 0,
-            "nanoOfDay": 54023000000000
-        },
-        "event_location": "Restroom",
-        "event_location_id": "5eeb94895ab7c405ece4bd49",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Major",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33565d5ab7c205fc11b65d",
-                "resolution": "Out-of-School Suspension",
-                "resolution_days": 2,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "6197fa363410dc17f44cb17c",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f3353ee5ab7c205fc11b5ed",
-        "incident_id": "6197fa353410dc17f44ca5e1",
-        "dictionary_id": null,
-        "event_name": "Tardy",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 19,
-            "calendar": 0,
-            "nanoOfDay": 48212000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "8",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a534e9077b0a5b0cffbc65",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934be7e7d48e2754c6fb7c",
-        "incident_id": "61a534e93410dc17f4b1875c",
-        "dictionary_id": null,
-        "event_name": "Disrespect",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 29,
-            "calendar": 0,
-            "nanoOfDay": 47820000000000
-        },
-        "event_location": "Cafeteria",
-        "event_location_id": "5d934c3fe7d48e2754c80277",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f3356415ab7c205fc11b657",
-                "resolution": "Time Out/Detention",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Other",
-        "role_id": "60a83b5298c7f2b3ef863d31"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a66f143410dc17f41d5d0f",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5d934bffe7d48e2754c73d62",
-        "incident_id": "61a66f11077b0a48bc5613c6",
-        "dictionary_id": null,
-        "event_name": "Disruption",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 45033000000000
-        },
-        "event_location": "Classroom",
-        "event_location_id": "5d934c48e7d48e2754c817be",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [],
-        "motivations": [],
-        "notes": [],
-        "status": "Open",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    },
-    {
-        "$type": "ION_DATA_MODEL.behavior_event, ION_DATA_MODEL",
-        "id": "61a792813410dc17f452f694",
-        "school_year": 2022,
-        "term_name": "",
-        "event_id": "5f33537f5ab7c205fc11b5d5",
-        "incident_id": "61a792803410dc17f452eb17",
-        "dictionary_id": null,
-        "event_name": "Minor - Physical Contact/Physical Aggression",
-        "events": [],
-        "event_date": {
-            "$type": "NodaTime.LocalDateTime, NodaTime",
-            "year": 2021,
-            "month": 11,
-            "day": 30,
-            "calendar": 0,
-            "nanoOfDay": 33360000000000
-        },
-        "event_location": "Gym",
-        "event_location_id": "5d934c4ce7d48e2754c81e67",
-        "event_description": "",
-        "submitted_by": "",
-        "submitted_by_id": "",
-        "severity": "Minor",
-        "observed_by_list": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            },
-            {
-                "$type": "ION_DATA_MODEL.behavior_observed_by, ION_DATA_MODEL",
-                "staff_id": "",
-                "staff_name": ""
-            }
-        ],
-        "observed_by": null,
-        "observed_by_id": null,
-        "perceived_motivation": null,
-        "resolutions": [
-            {
-                "$type": "ION_DATA_MODEL.behavior_resolution, ION_DATA_MODEL",
-                "resolution_id": "5f33564e5ab7c205fc11b65a",
-                "resolution": "In-School Suspension",
-                "resolution_days": 1,
-                "seclusion_restraint": false
-            }
-        ],
-        "motivations": [],
-        "notes": [],
-        "status": "Completed",
-        "student_id": "",
-        "grade": "7",
-        "student_name": "",
-        "source": "Web",
-        "disaggregate_key": "",
-        "role": "Offender",
-        "role_id": "60a83b5298c7f2b3ef863d30"
-    }
+var plan = {
+    "_id": "61325c4d3410e8536c8a89bc",
+    "active": true,
+    "deleted": false,
+    "created_date": ISODate("2021-09-03T17:33:01.266+0000"),
+    "created_by": "610023aa077b0a2bbc4bf9ad",
+    "updated_date": ISODate("2021-11-22T17:16:14.412+0000"),
+    "updated_by": "610023aa077b0a2bbc4bf9ad",
+    "clever_id": null,
+    "cbm_type_id": null,
+    "cbm_measure_id": null,
+    "student_id": "",
+    "customer_id": "",
+    "school_id": "",
+    "plan_type": null,
+    "plan_start": ISODate("2021-09-03T17:32:53.787+0000"),
+    "plan_end": ISODate("0001-01-01T00:00:00.000+0000"),
+    "problem_statement": "",
+    "monitored_skills": [
+        {
+            "_id": "61325e713410e8536c8c29f3",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-03T17:42:09.627+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_date": ISODate("2021-09-03T17:42:09.627+0000"),
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "clever_id": null,
+            "skill_id": "5da631bc57e96f18d8155354",
+            "cbm_type_id": "5d37ab0b2ad8f616fc700707",
+            "cbm_measure_id": "5f5293225ab7c21ce43c903f",
+            "name": "Feeling Identification",
+            "type": "S",
+            "current_growth": 1.0,
+            "growth_target": 0.0,
+            "adequate_growth": true,
+            "norm_grade": "7",
+            "start_date": ISODate("2021-09-03T17:42:02.027+0000"),
+            "end_date": ISODate("0001-01-01T00:00:00.000+0000"),
+            "roi": 0.37,
+            "goals": [
+                {
+                    "_id": "61325ed63410e8536c8c3490",
+                    "active": true,
+                    "deleted": false,
+                    "created_date": ISODate("2021-09-03T17:43:50.921+0000"),
+                    "created_by": "610023aa077b0a2bbc4bf9ad",
+                    "updated_date": ISODate("2021-09-03T17:43:50.921+0000"),
+                    "updated_by": "610023aa077b0a2bbc4bf9ad",
+                    "clever_id": null,
+                    "start_date": ISODate("2021-09-03T17:43:43.396+0000"),
+                    "end_date": ISODate("2022-06-13T07:00:00.000+0000"),
+                    "goal_by": ISODate("2022-06-13T07:00:00.000+0000"),
+                    "goal_met_date": ISODate("1970-01-01T00:00:00.000+0000"),
+                    "goal_met": false,
+                    "value": 10.0,
+                    "goal_stated": "",
+                    "roi": 0.37,
+                    "norm_roi": 0.0,
+                    "target_roi": 0.0,
+                    "baseline_date": ISODate("0001-01-01T00:00:00.000+0000"),
+                    "baseline_score": 0.0,
+                    "status": null,
+                    "goal_submission": "",
+                    "goal_form": ""
+                }
+            ],
+            "tier1_strategies": [
+
+            ],
+            "interventions": [
+                {
+                    "_id": "61325f2a3410e8536c8c5ef0",
+                    "intervention_id": "5d7277d385a71818e0fc3138",
+                    "name": "Individual Therapy",
+                    "start_date": ISODate("2021-09-06T07:00:00.000+0000"),
+                    "end_date": ISODate("0001-01-01T00:00:00.000+0000"),
+                    "active": true,
+                    "successful": false,
+                    "pm_schedule": "FREQ=WEEKLY;BYDAY=FR;INTERVAL=4",
+                    "success_time": 0.0,
+                    "group_id": null,
+                    "discipline": "",
+                    "roi": 0.38,
+                    "status": "TS",
+                    "schedule": "M",
+                    "minutes": 30.0,
+                    "weeks": 30.0,
+                    "tier": 3.0,
+                    "updates": [
+
+                    ],
+                    "attendance_percent": null,
+                    "minutes_percent": null,
+                    "total_sessions": 0.0,
+                    "present_sessions": 0.0,
+                    "total_minutes": 0.0,
+                    "present_minutes": 0.0,
+                    "interventionist_id": "",
+                    "interventionist_name": "",
+                    "serves_iep": false
+                }
+            ],
+            "progress_monitors": [
+                {
+                    "_id": "614ba1ba3410fc536c298b26",
+                    "active": true,
+                    "deleted": false,
+                    "created_date": ISODate("2021-09-22T21:35:54.541+0000"),
+                    "created_by": "610023aa077b0a2bbc4bf9ad",
+                    "updated_date": ISODate("2021-09-22T21:35:54.541+0000"),
+                    "updated_by": "610023aa077b0a2bbc4bf9ad",
+                    "clever_id": null,
+                    "date": "2021-09-22",
+                    "score": 2.0,
+                    "score_display": "",
+                    "total_attempted": -1.0,
+                    "errors": -1.0,
+                    "benchmark": false,
+                    "baseline": false,
+                    "school_year": null,
+                    "time_period": null,
+                    "assessment_id": null,
+                    "percentile": -1.0,
+                    "warehouse_id": "614ba1ba3410fc536c298b25",
+                    "note": "",
+                    "label": "",
+                    "probe_no": "",
+                    "staff_id": "",
+                    "staff_name": "",
+                    "probe_id": "",
+                    "pending": false,
+                    "accuracy": 0.0
+                },
+                {
+                    "_id": "619bd05e077b0a3de0f139c1",
+                    "active": true,
+                    "deleted": false,
+                    "created_date": ISODate("2021-11-22T17:16:14.412+0000"),
+                    "created_by": "610023aa077b0a2bbc4bf9ad",
+                    "updated_date": ISODate("2021-11-22T17:16:14.412+0000"),
+                    "updated_by": "610023aa077b0a2bbc4bf9ad",
+                    "clever_id": null,
+                    "date": "2021-11-17",
+                    "score": 5.0,
+                    "score_display": "",
+                    "total_attempted": -1.0,
+                    "errors": -1.0,
+                    "benchmark": false,
+                    "baseline": false,
+                    "school_year": null,
+                    "time_period": null,
+                    "assessment_id": null,
+                    "percentile": -1.0,
+                    "warehouse_id": "619bd05e077b0a3de0f139c0",
+                    "note": "",
+                    "label": "",
+                    "probe_no": "",
+                    "staff_id": "",
+                    "staff_name": "",
+                    "probe_id": "",
+                    "pending": false,
+                    "accuracy": 0.0
+                }
+            ],
+            "growth_positive": true
+        },
+        {
+            "_id": "61435dd23410f1536c359264",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-16T15:08:02.126+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_date": ISODate("2021-09-16T15:08:02.126+0000"),
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "clever_id": null,
+            "skill_id": "5ef259445ab7c325a02bb9f4",
+            "cbm_type_id": "5d37ab0b2ad8f616fc700707",
+            "cbm_measure_id": "5e62c2df5ab7c3176ce2a280",
+            "name": "Social Skills",
+            "type": "S",
+            "current_growth": 0.0,
+            "growth_target": 0.0,
+            "adequate_growth": false,
+            "norm_grade": "7",
+            "start_date": ISODate("2021-09-16T15:08:02.183+0000"),
+            "end_date": ISODate("0001-01-01T00:00:00.000+0000"),
+            "roi": NaN,
+            "goals": [
+                {
+                    "_id": "61435e3e3410f1536c3fdce0",
+                    "active": true,
+                    "deleted": false,
+                    "created_date": ISODate("2021-09-16T15:09:50.723+0000"),
+                    "created_by": "610023aa077b0a2bbc4bf9ad",
+                    "updated_date": ISODate("2021-09-16T15:09:50.723+0000"),
+                    "updated_by": "610023aa077b0a2bbc4bf9ad",
+                    "clever_id": null,
+                    "start_date": ISODate("2021-09-16T15:09:50.815+0000"),
+                    "end_date": ISODate("2022-06-13T07:00:00.000+0000"),
+                    "goal_by": ISODate("2022-06-13T07:00:00.000+0000"),
+                    "goal_met_date": ISODate("1970-01-01T00:00:00.000+0000"),
+                    "goal_met": false,
+                    "value": 80.0,
+                    "goal_stated": "",
+                    "roi": NaN,
+                    "norm_roi": 0.0,
+                    "target_roi": 0.0,
+                    "baseline_date": ISODate("0001-01-01T00:00:00.000+0000"),
+                    "baseline_score": 0.0,
+                    "status": null,
+                    "goal_submission": "",
+                    "goal_form": ""
+                }
+            ],
+            "tier1_strategies": [
+
+            ],
+            "interventions": [
+                {
+                    "_id": "61435e8e3410f1536c407438",
+                    "intervention_id": "5d7277d385a71818e0fc3138",
+                    "name": "Individual Therapy",
+                    "start_date": ISODate("2021-09-15T07:00:00.000+0000"),
+                    "end_date": ISODate("0001-01-01T00:00:00.000+0000"),
+                    "active": true,
+                    "successful": false,
+                    "pm_schedule": "FREQ=WEEKLY;BYDAY=FR;INTERVAL=4",
+                    "success_time": 0.0,
+                    "group_id": null,
+                    "discipline": "",
+                    "roi": 0.0,
+                    "status": "",
+                    "schedule": "F",
+                    "minutes": 30.0,
+                    "weeks": 30.0,
+                    "tier": 3.0,
+                    "updates": [
+
+                    ],
+                    "attendance_percent": null,
+                    "minutes_percent": null,
+                    "total_sessions": 0.0,
+                    "present_sessions": 0.0,
+                    "total_minutes": 0.0,
+                    "present_minutes": 0.0,
+                    "interventionist_id": "",
+                    "interventionist_name": "",
+                    "serves_iep": false
+                }
+            ],
+            "progress_monitors": [
+                {
+                    "_id": "619bcfe5077b0a3de0f06dc9",
+                    "active": true,
+                    "deleted": false,
+                    "created_date": ISODate("2021-11-22T17:14:13.027+0000"),
+                    "created_by": "610023aa077b0a2bbc4bf9ad",
+                    "updated_date": ISODate("2021-11-22T17:14:13.027+0000"),
+                    "updated_by": "610023aa077b0a2bbc4bf9ad",
+                    "clever_id": null,
+                    "date": "2021-11-17",
+                    "score": 80.0,
+                    "score_display": "",
+                    "total_attempted": -1.0,
+                    "errors": -1.0,
+                    "benchmark": false,
+                    "baseline": false,
+                    "school_year": null,
+                    "time_period": null,
+                    "assessment_id": null,
+                    "percentile": -1.0,
+                    "warehouse_id": "619bcfe5077b0a3de0f06dc8",
+                    "note": "",
+                    "label": "",
+                    "probe_no": "",
+                    "staff_id": "",
+                    "staff_name": "",
+                    "probe_id": "",
+                    "pending": false,
+                    "accuracy": 0.0
+                }
+            ],
+            "growth_positive": true
+        }
+    ],
+    "notes": [
+
+    ],
+    "tasks": [
+
+    ],
+    "next_review": ISODate("0001-01-01T00:00:00.000+0000"),
+    "reviews": [
+
+    ],
+    "checkins": [
+        {
+            "_id": "61435f9e3410f1536c40feb0",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-16T15:15:42.822+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-16T15:15:42.822+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-15",
+            "checkin_time": "8:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 10.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Parent Counseling/Training",
+            "service_type_id": "5d3d1f072ad90416fc228a29",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": "5ecdc1525ab7c21fe42b7cb3"
+        },
+        {
+            "_id": "6143610c3410f1536c43f322",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-16T15:21:48.750+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-16T15:21:48.750+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-15",
+            "checkin_time": "12:50",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61490f4c3410f5536c6d8011",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-20T22:46:35.898+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-20T22:46:35.898+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-20",
+            "checkin_time": "10",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "614c9de63410fd536c30df84",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-23T15:31:50.713+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-23T15:31:50.713+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-22",
+            "checkin_time": "1",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "614e5d8e3410fe536cf66e1a",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-24T23:21:50.141+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-24T23:21:50.141+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-23",
+            "checkin_time": "1:55",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 60.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Social Work Services",
+            "service_type_id": "5d3d1f1c2ad90416fc228a93",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "No Instruction",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "6155d60f341105536ca0e8e5",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-09-30T15:21:51.375+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-09-30T15:21:51.375+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-29",
+            "checkin_time": "12:50",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61577eff077b185258efe38c",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-01T21:34:55.255+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-01T21:34:55.255+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-01",
+            "checkin_time": "1:55",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "615b620b077b0a47a44de286",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-04T20:20:27.033+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-04T20:20:27.033+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-09-23",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 60.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Social Work Services",
+            "service_type_id": "5d3d1f1c2ad90416fc228a93",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "615f177334110b536cbeba8a",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-07T15:50:42.215+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-07T15:50:42.215+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-06",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "615f177334110b536cbeba8b",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-07T15:51:15.303+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-07T15:51:15.303+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-06",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "616736be077b0a46242d6a53",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-13T19:39:41.686+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-13T19:39:41.686+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-13",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "616736be077b0a46242d6a54",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-13T19:42:54.832+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-13T19:42:54.832+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-13",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "617185423410da1384a59459",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-21T15:22:42.361+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-21T15:22:42.361+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-20",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "617185423410da1384a5945a",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-21T15:23:38.259+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-21T15:23:38.259+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-20",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "6172e281077b0a17acadbff2",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-22T16:10:41.547+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-22T16:10:41.547+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-21",
+            "checkin_time": "1:55",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 60.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Social Work Services",
+            "service_type_id": "5d3d1f1c2ad90416fc228a93",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "No Instruction",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61771c5d3410da1384db5141",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-25T21:06:36.938+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-25T21:06:36.938+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-14",
+            "checkin_time": "9:50",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Parent Counseling/Training",
+            "service_type_id": "5d3d1f072ad90416fc228a29",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Absent",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "6179cbb53410da13848e6c44",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-27T21:59:16.200+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-27T21:59:16.200+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-27",
+            "checkin_time": "2:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 0.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Parent Counseling/Training",
+            "service_type_id": "5d3d1f072ad90416fc228a29",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "No Instruction",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "617aca96077b0e2368392f30",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-28T16:06:24.186+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-28T16:06:24.186+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-27",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "617aca96077b0e2368392f31",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-10-28T16:06:46.454+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-10-28T16:06:46.454+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-10-27",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61856f16077b1d1ad467d04f",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-05T17:50:51.613+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-05T17:50:51.613+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-03",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61856f16077b1d1ad467d050",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-05T17:51:19.147+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-05T17:51:19.147+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-03",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "618d65f23410da17d4a1fb94",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-11T18:50:01.792+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-11T18:50:01.792+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-10",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "618d65f23410da17d4a1fb95",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-11T18:50:25.290+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-11T18:50:25.290+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-10",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "6196e8703410db17f4e1a69e",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-18T23:55:22.307+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-18T23:55:22.307+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-17",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "6196e8703410db17f4e1a69f",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-18T23:57:36.160+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-18T23:57:36.160+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-17",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61993536077b0a0580fe3261",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-11-20T17:49:43.293+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-11-20T17:49:43.293+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-18",
+            "checkin_time": "1:55",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Social Work Services",
+            "service_type_id": "5d3d1f1c2ad90416fc228a93",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "No Instruction",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61aa85c1077b0a178c782eb0",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-12-03T21:01:03.168+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-12-03T21:01:03.168+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-12-01",
+            "checkin_time": "10:30",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Individual Counseling/Therapy",
+            "service_type_id": "5d3d1ee62ad90416fc2289a8",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Absent",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61aa85c1077b0a178c782eb1",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-12-03T21:01:55.017+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-12-03T21:01:55.017+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-12-01",
+            "checkin_time": "11",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Counseling and Guidance",
+            "service_type_id": "5d3d1ebf2ad90416fc22892a",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Absent",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61aa87033410dd17f454bbd9",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-12-03T21:04:36.614+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-12-03T21:04:36.614+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-12-03",
+            "checkin_time": "8:15",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 30.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Parent Counseling/Training",
+            "service_type_id": "5d3d1f072ad90416fc228a29",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Present",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        },
+        {
+            "_id": "61aa87033410dd17f454bbda",
+            "active": true,
+            "deleted": false,
+            "created_date": ISODate("2021-12-03T21:07:13.835+0000"),
+            "created_by": null,
+            "updated_date": ISODate("2021-12-03T21:07:13.835+0000"),
+            "updated_by": null,
+            "clever_id": null,
+            "group_id": "",
+            "group_name": "",
+            "intervention_id": "",
+            "intervention_name": "Select Intervention (Optional)",
+            "checkin_date": "2021-11-08",
+            "checkin_time": "2:45",
+            "checkin_by": "610023aa077b0a2bbc4bf9ad",
+            "student_id": "",
+            "worked_on": "",
+            "comment": "",
+            "absent": false,
+            "minutes": 25.0,
+            "service_minutes": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "service_type": "Parent Counseling/Training",
+            "service_type_id": "5d3d1f072ad90416fc228a29",
+            "iep_service": true,
+            "period": "",
+            "no_instruction": false,
+            "attendance_notes": "Service Offered - Refused",
+            "attendance_code": "",
+            "attendance_code_id": ""
+        }
+    ],
+    "service_requirements": [
+        {
+            "_id": "61435f013410f1536c409ff1",
+            "dictionary_id": "5d3d1f072ad90416fc228a29",
+            "minutes": 30.0,
+            "frequency": 2.0,
+            "date_updated": ISODate("2021-09-16T15:13:06.064+0000"),
+            "date_created": ISODate("2021-09-16T15:13:06.064+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "start_date": "2021-06-14",
+            "end_date": "2022-06-13",
+            "active": true,
+            "monitor_type": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "schedule": 0.0
+        },
+        {
+            "_id": "61435f333410f1536c40a212",
+            "dictionary_id": "5d3d1ee62ad90416fc2289a8",
+            "minutes": 30.0,
+            "frequency": 1.0,
+            "date_updated": ISODate("2021-09-16T15:13:55.428+0000"),
+            "date_created": ISODate("2021-09-16T15:13:55.428+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "start_date": "2021-06-14",
+            "end_date": "2022-06-13",
+            "active": true,
+            "monitor_type": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "schedule": 4.0
+        },
+        {
+            "_id": "61435f5e3410f1536c40a94e",
+            "dictionary_id": "5d3d1f1c2ad90416fc228a93",
+            "minutes": 60.0,
+            "frequency": 2.0,
+            "date_updated": ISODate("2021-09-16T15:14:38.424+0000"),
+            "date_created": ISODate("2021-09-16T15:14:38.424+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "start_date": "2021-06-14",
+            "end_date": "2022-06-13",
+            "active": true,
+            "monitor_type": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "schedule": 0.0
+        },
+        {
+            "_id": "61435f7e3410f1536c40c161",
+            "dictionary_id": "5d3d1ebf2ad90416fc22892a",
+            "minutes": 30.0,
+            "frequency": 1.0,
+            "date_updated": ISODate("2021-09-16T15:15:11.069+0000"),
+            "date_created": ISODate("2021-09-16T15:15:11.069+0000"),
+            "created_by": "610023aa077b0a2bbc4bf9ad",
+            "updated_by": "610023aa077b0a2bbc4bf9ad",
+            "start_date": "2021-06-14",
+            "end_date": "2022-06-13",
+            "active": true,
+            "monitor_type": 0.0,
+            "staff_id": "",
+            "staff_name": "",
+            "schedule": 4.0
+        }
+    ]
+}
+var enrollment = [{
+    "$type": "ION_DATA_MODEL.enrollment_day_detail, ION_DATA_MODEL",
+    "customer_id": "",
+    "student_id": "",
+    "school_id": "",
+    "school_year": 2021,
+    "grade": "7",
+    "enrollment_days": [{
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-18T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-08-31T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-18T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-09-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-10-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-02T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-03T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-04T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-05T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-06T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-09T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-10T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-12T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-13T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-16T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-17T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-18T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-19T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-20T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-23T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-24T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-11-30T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-01T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-02T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-03T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-04T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-07T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-08T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-09T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-10T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-14T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-15T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-16T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-17T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2020-12-18T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-04T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-05T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-06T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-07T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-08T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-12T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-13T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-14T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-15T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-18T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-19T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-20T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-21T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-22T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-25T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-26T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-27T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-28T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-01-29T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-01T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-02T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-03T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-04T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-05T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-08T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-09T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-10T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-12T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-15T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-16T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-17T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-18T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-19T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-22T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-23T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-24T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-25T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-02-26T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-01T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-02T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-03T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-04T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-05T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-08T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-09T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-10T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-03-31T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-04-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-18T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-05-31T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-06-18T05:00:00Z",
+        "term": ""
+    }],
+    "enrollment_terms": null,
+    "id": "61ae5474a356c717bc905e4d",
+    "active": true,
+    "deleted": false,
+    "created_date": "0001-01-01T00:00:00Z",
+    "created_by": "-9999",
+    "updated_date": "0001-01-01T00:00:00Z",
+    "updated_by": "-9999",
+    "clever_id": ""
+}, {
+    "$type": "ION_DATA_MODEL.enrollment_day_detail, ION_DATA_MODEL",
+    "customer_id": "",
+    "student_id": "",
+    "school_id": "",
+    "school_year": 2022,
+    "grade": "7",
+    "enrollment_days": [{
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-18T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-08-31T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-09T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-10T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-16T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-17T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-23T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-24T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-09-30T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-06T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-07T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-08T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-11T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-12T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-13T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-14T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-15T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-18T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-19T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-20T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-21T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-22T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-25T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-26T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-27T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-28T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-10-29T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-01T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-02T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-03T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-04T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-05T05:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-08T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-09T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-10T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-11T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-12T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-15T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-16T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-17T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-18T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-19T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-22T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-23T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-24T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-25T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-26T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-29T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-11-30T06:00:00Z",
+        "term": ""
+    }, {
+        "$type": "ION_DATA_MODEL.enrollment_day_detail+enrollment_day, ION_DATA_MODEL",
+        "date": "2021-12-01T06:00:00Z",
+        "term": ""
+    }],
+    "enrollment_terms": null,
+    "id": "61a8f55bab3a34a41cd7acb5",
+    "active": true,
+    "deleted": false,
+    "created_date": "0001-01-01T00:00:00Z",
+    "created_by": "-9999",
+    "updated_date": "0001-01-01T00:00:00Z",
+    "updated_by": "-9999",
+    "clever_id": null
+    }];
+
+var school_years = [
+    { "$type": "ION_DATA_MODEL.school_year, ION_DATA_MODEL", "current_year": true, "hide": false, "start_date": "2020-08-01T00:00:00Z", "end_date": "2021-08-01T00:00:00Z", "school_year": 2021, "region_id": 0, "customer_id": "", "school_id": "", "sis_id": "", "first_day": "2020-08-01T00:00:00Z", "last_day": "2021-08-01T00:00:00Z", "label": "2020-21javascript:void(0);", "day_events": [{ "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 8, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 9, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 10, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 11, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2020, "month": 12, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 1, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 2, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 3, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 4, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 5, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 6, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 7, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }], "terms": [], "id": "5d2c97a3c371d120647ec277", "active": true, "deleted": false, "created_date": "2019-07-15T15:11:31.323Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-15T15:11:31.323Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null },
+    { "$type": "ION_DATA_MODEL.school_year, ION_DATA_MODEL", "current_year": false, "hide": false, "start_date": "2021-08-01T00:00:00Z", "end_date": "2022-08-01T00:00:00Z", "school_year": 2022, "region_id": 0, "customer_id": "", "school_id": "", "sis_id": "", "first_day": "2021-08-01T00:00:00Z", "last_day": "2022-08-01T00:00:00Z", "label": "2021-22", "day_events": [{ "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 8, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 9, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 10, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 11, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2021, "month": 12, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 1, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 2, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 6, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 13, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 20, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 27, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 3, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 4, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 1, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 7, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 8, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 14, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 15, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 21, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 22, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 28, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 29, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 5, "day": 31, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 2, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 3, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 4, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 5, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 9, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 10, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 11, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 12, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 16, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 17, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 18, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 19, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 23, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 24, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 25, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 26, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 6, "day": 30, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 1, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 2, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 3, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 4, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 5, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 6, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 7, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 8, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 9, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 10, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 11, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 12, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 13, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 14, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 15, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 16, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 17, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 18, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 19, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 20, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 21, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 22, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 23, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 24, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 25, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 26, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 27, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 28, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 29, "calendar": 0 }, "instruction": true, "attendance": true }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 30, "calendar": 0 }, "instruction": false, "attendance": false }, { "$type": "ION_DATA_MODEL.day_event, ION_DATA_MODEL", "date": { "$type": "NodaTime.LocalDate, NodaTime", "year": 2022, "month": 7, "day": 31, "calendar": 0 }, "instruction": false, "attendance": false }], "terms": [], "id": "5d2c97f5c371d120647f7697", "active": true, "deleted": false, "created_date": "2019-07-15T15:12:52.374Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-15T15:12:52.374Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }
 ]
+
+var service_types = [{ "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Behavior Intervention Services- Implementation", "iep_service": true, "protect_comments": false, "id": "5d3d1eab2ad90416fc228912", "active": true, "deleted": false, "created_date": "2019-07-28T04:03:57.041Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:26:00.983Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Crisis Services", "iep_service": false, "protect_comments": false, "id": "5d3d1ec22ad90416fc228934", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:19.978Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:19.978Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Vision Services", "iep_service": false, "protect_comments": false, "id": "5d3d1f282ad90416fc228aed", "active": true, "deleted": false, "created_date": "2019-07-28T04:06:01.856Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:06:01.856Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Mentoring", "iep_service": false, "protect_comments": false, "id": "5d3d1ef32ad90416fc2289e4", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:09.306Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:09.306Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Teacher Consultation", "iep_service": false, "protect_comments": false, "id": "5e8377be5ab7c22aac8a548b", "active": true, "deleted": false, "created_date": "2020-03-31T17:02:55.358Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-09-30T16:29:15.646Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Psychological Services: Other", "iep_service": false, "protect_comments": false, "id": "5e8377c65ab7c22aac8a54b0", "active": true, "deleted": false, "created_date": "2020-03-31T17:03:03.287Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-03-31T17:03:03.288Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Core Academic Support", "iep_service": false, "protect_comments": false, "id": "5ec425155ab7c21894cd0e9a", "active": true, "deleted": false, "created_date": "2020-05-19T18:27:18.723Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:27:18.723Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Observation", "iep_service": false, "protect_comments": false, "id": "5ec4252f5ab7c21894cd0ef3", "active": true, "deleted": false, "created_date": "2020-05-19T18:27:44.2Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:27:44.201Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Assessment", "iep_service": false, "protect_comments": false, "id": "5ec425425ab7c21894cd0f21", "active": true, "deleted": false, "created_date": "2020-05-19T18:28:03.852Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:28:03.852Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Behavior Intervention Services- Implementation (COMPENSATORY)", "iep_service": true, "protect_comments": false, "id": "5f31c2d45ab7c314545d34ff", "active": true, "deleted": false, "created_date": "2020-08-10T21:56:19.128Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-08-10T21:56:19.129Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Program Development and Planning", "iep_service": false, "protect_comments": false, "id": "5d3d1f0b2ad90416fc228a42", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:33.165Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:33.165Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Specialized Academic Instruction", "iep_service": true, "protect_comments": false, "id": "5d3d1e8d2ad90416fc228903", "active": true, "deleted": false, "created_date": "2019-07-28T04:03:27.129Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:23:48.158Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Parent Counseling/Training", "iep_service": true, "protect_comments": false, "id": "5d3d1f072ad90416fc228a29", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:28.794Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:22:29.926Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Health and Nursing", "iep_service": true, "protect_comments": false, "id": "5d3d1edb2ad90416fc228985", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:44.866Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:25:04.111Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Behavior Intervention - Design or Planning", "iep_service": false, "protect_comments": false, "id": "5d3d1ea22ad90416fc22890c", "active": true, "deleted": false, "created_date": "2019-07-28T04:03:48.066Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:03:48.067Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Transportation", "iep_service": false, "protect_comments": false, "id": "5d3d1f252ad90416fc228ace", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:58.551Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:58.551Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Physical Therapy", "iep_service": true, "protect_comments": false, "id": "5ec424a05ab7c21894cd0d49", "active": true, "deleted": false, "created_date": "2020-05-19T18:25:21.461Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:25:21.461Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Alternatives to Suspension", "iep_service": false, "protect_comments": false, "id": "5ec425985ab7c21894cd0f80", "active": true, "deleted": false, "created_date": "2020-05-19T18:29:29.454Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:29:29.455Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "ERMHS Assessment", "iep_service": false, "protect_comments": false, "id": "5d3d1ec62ad90416fc22893f", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:24.128Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:24.128Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Preparing or Writing Plan", "iep_service": false, "protect_comments": false, "id": "5ec425515ab7c21894cd0f50", "active": true, "deleted": false, "created_date": "2020-05-19T18:28:18.977Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:28:18.977Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Positive Behavioral Interventions and Supports (PBIS)", "iep_service": false, "protect_comments": false, "id": "5ec425ce5ab7c21894cd1016", "active": true, "deleted": false, "created_date": "2020-05-19T18:30:23.407Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:30:23.407Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "School-Wide Training or Workshop", "iep_service": false, "protect_comments": false, "id": "5ec4262c5ab7c21894cd104a", "active": true, "deleted": false, "created_date": "2020-05-19T18:31:57.421Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:31:57.421Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Parent Coaching", "iep_service": false, "protect_comments": false, "id": "5ec4263e5ab7c21894cd10b5", "active": true, "deleted": false, "created_date": "2020-05-19T18:32:15.86Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:32:15.86Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Meeting", "iep_service": false, "protect_comments": false, "id": "5f7df8445ab7c526d4bd2bac", "active": true, "deleted": false, "created_date": "2020-10-07T17:17:44.392Z", "created_by": "5eb5efed5ab7c21250f5b8fc", "updated_date": "2020-10-07T17:17:44.394Z", "updated_by": "5eb5efed5ab7c21250f5b8fc", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Behavioral Reset", "iep_service": false, "protect_comments": false, "id": "5fa1b2ab5ab7c2278cfe6b09", "active": true, "deleted": false, "created_date": "2020-11-03T19:42:33.459Z", "created_by": "5eb5efed5ab7c21250f5b8fc", "updated_date": "2020-11-03T19:42:33.479Z", "updated_by": "5eb5efed5ab7c21250f5b8fc", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Tier 2 Individual Service", "iep_service": false, "protect_comments": false, "id": "5ec424f55ab7c21894cd0e45", "active": true, "deleted": false, "created_date": "2020-05-19T18:26:46.17Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:26:46.17Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Whole Class Push In", "iep_service": false, "protect_comments": false, "id": "5ec426485ab7c21894cd117e", "active": true, "deleted": false, "created_date": "2020-05-19T18:32:25.536Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:32:25.537Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Assistive Technology", "iep_service": true, "protect_comments": false, "id": "5f59664d5ab7c23914c86952", "active": true, "deleted": false, "created_date": "2020-09-09T23:33:28.782Z", "created_by": "5eb5efed5ab7c21250f5b8fc", "updated_date": "2020-09-09T23:33:28.783Z", "updated_by": "5eb5efed5ab7c21250f5b8fc", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Consultation", "iep_service": false, "protect_comments": false, "id": "5d3d1f222ad90416fc228ab0", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:56.047Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-09-30T16:25:57.666Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Evaluation", "iep_service": false, "protect_comments": false, "id": "5e8377ac5ab7c22aac8a542b", "active": true, "deleted": false, "created_date": "2020-03-31T17:02:37.41Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-09-30T16:24:13.148Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Tier 1 Ongoing Service", "iep_service": false, "protect_comments": false, "id": "5da4b22a57e96c18d845ba02", "active": true, "deleted": false, "created_date": "2019-10-14T17:36:44.03Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-10-14T17:36:44.031Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Tier 3 Family Service", "iep_service": false, "protect_comments": false, "id": "5ec424fd5ab7c21894cd0e6f", "active": true, "deleted": false, "created_date": "2020-05-19T18:26:54.932Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:26:54.932Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Teacher Coaching", "iep_service": false, "protect_comments": false, "id": "5ec4263a5ab7c21894cd107f", "active": true, "deleted": false, "created_date": "2020-05-19T18:32:11.169Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:32:11.169Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Social Work Services", "iep_service": true, "protect_comments": false, "id": "5d3d1f1c2ad90416fc228a93", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:50.33Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-10-14T03:15:28.908Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Individual Counseling/Therapy", "iep_service": true, "protect_comments": false, "id": "5d3d1ee62ad90416fc2289a8", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:55.486Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:22:10.946Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Pre-Referral Support", "iep_service": false, "protect_comments": false, "id": "5e8377b65ab7c22aac8a544e", "active": true, "deleted": false, "created_date": "2020-03-31T17:02:46.724Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-09-30T16:24:36.489Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Audiological Services", "iep_service": false, "protect_comments": false, "id": "5d3d1e992ad90416fc228907", "active": true, "deleted": false, "created_date": "2019-07-28T04:03:38.901Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:03:38.902Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Direct Instruction", "iep_service": false, "protect_comments": false, "id": "5ec4251e5ab7c21894cd0ec6", "active": true, "deleted": false, "created_date": "2020-05-19T18:27:27.687Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:27:27.688Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Specialized Academic Instruction (COMPENSATORY)", "iep_service": true, "protect_comments": false, "id": "5f31c4615ab7c314545d46ee", "active": true, "deleted": false, "created_date": "2020-08-10T22:02:56.585Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-08-10T22:02:56.585Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Orientation and Mobility Instruction", "iep_service": false, "protect_comments": false, "id": "5d3d1efe2ad90416fc228a11", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:19.426Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:19.426Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Social Skills Group", "iep_service": false, "protect_comments": false, "id": "5d3d1f152ad90416fc228a77", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:42.833Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:42.833Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Case Management", "iep_service": false, "protect_comments": false, "id": "5ec425b05ab7c21894cd0fb1", "active": true, "deleted": false, "created_date": "2020-05-19T18:29:53.515Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:29:53.515Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Brief Counseling", "iep_service": false, "protect_comments": false, "id": "5d3d1eb02ad90416fc228919", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:01.395Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:01.396Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Intensive Individual Services", "iep_service": true, "protect_comments": false, "id": "5ec424825ab7c21894cd0cd9", "active": true, "deleted": false, "created_date": "2020-05-19T18:24:51.509Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:24:51.51Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Risk Assessment", "iep_service": false, "protect_comments": false, "id": "5ec42ef15ab7c21894cdd2be", "active": true, "deleted": false, "created_date": "2020-05-19T19:09:22.147Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T19:09:22.147Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Counseling and Guidance", "iep_service": true, "protect_comments": false, "id": "5d3d1ebf2ad90416fc22892a", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:16.766Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:21:49.863Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Family Therapy", "iep_service": false, "protect_comments": false, "id": "5d3d1ed52ad90416fc228966", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:38.547Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:38.547Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Home Instruction", "iep_service": false, "protect_comments": false, "id": "5d3d1ee02ad90416fc228996", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:49.777Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:49.777Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Tier 2 Group Service", "iep_service": false, "protect_comments": false, "id": "5ec424e85ab7c21894cd0e1c", "active": true, "deleted": false, "created_date": "2020-05-19T18:26:33.923Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:26:33.923Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Occupational Therapy Services", "iep_service": true, "protect_comments": false, "id": "5d3d1ef82ad90416fc2289fa", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:13.947Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-10-14T03:15:03.47Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Psychological Services", "iep_service": true, "protect_comments": false, "id": "5d3d1f122ad90416fc228a5c", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:39.481Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-05-19T18:22:45.116Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Conflict Resolution", "iep_service": false, "protect_comments": false, "id": "5ec42f2a5ab7c21894cdd2f8", "active": true, "deleted": false, "created_date": "2020-05-19T19:10:19.552Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T19:10:19.552Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Individual Counseling/Therapy (COMPENSATORY)", "iep_service": true, "protect_comments": false, "id": "60c3877e3410dc1bc0af3cf6", "active": false, "deleted": false, "created_date": "2021-06-11T15:57:45.595Z", "created_by": "5d361cb9119bb90a704acc08", "updated_date": "2021-06-11T15:57:45.596Z", "updated_by": "5d361cb9119bb90a704acc08", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Language and Speech", "iep_service": true, "protect_comments": false, "id": "5d3d1eea2ad90416fc2289bb", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:00.146Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2020-11-17T21:53:58.402Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Empowerment/Prevention Group", "iep_service": false, "protect_comments": false, "id": "5d3d1ecc2ad90416fc22894b", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:30.348Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:30.348Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Drop In Counseling", "iep_service": false, "protect_comments": false, "id": "5ec425b75ab7c21894cd0fe3", "active": true, "deleted": false, "created_date": "2020-05-19T18:30:00.077Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T18:30:00.077Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "COST Intervention", "iep_service": false, "protect_comments": false, "id": "5d3d1eb42ad90416fc228921", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:05.387Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:05.387Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Extended School Year (ESY)", "iep_service": false, "protect_comments": false, "id": "5d3d1ed22ad90416fc228958", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:35.446Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:35.446Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Group Therapy", "iep_service": false, "protect_comments": false, "id": "5d3d1ed82ad90416fc228975", "active": true, "deleted": false, "created_date": "2019-07-28T04:04:41.712Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:04:41.712Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Low Incidence Specialized Services", "iep_service": false, "protect_comments": false, "id": "5d3d1ef12ad90416fc2289cf", "active": true, "deleted": false, "created_date": "2019-07-28T04:05:06.811Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:05:06.811Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Adaptive Physical Education", "iep_service": false, "protect_comments": false, "id": "5d3d1f4d2ad90416fc228b0d", "active": true, "deleted": false, "created_date": "2019-07-28T04:06:38.645Z", "created_by": "5d2c9738c371d120647ec174", "updated_date": "2019-07-28T04:06:38.646Z", "updated_by": "5d2c9738c371d120647ec174", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Crisis Management", "iep_service": false, "protect_comments": false, "id": "5ec42eeb5ab7c21894cdd285", "active": true, "deleted": false, "created_date": "2020-05-19T19:09:16.276Z", "created_by": "5d2cacf4c371d120647f8698", "updated_date": "2020-05-19T19:09:16.278Z", "updated_by": "5d2cacf4c371d120647f8698", "clever_id": null }, { "$type": "ION_DATA_MODEL.service_type, ION_DATA_MODEL", "customer_id": "", "name": "Counseling and Guidance (COMPENSATORY)", "iep_service": true, "protect_comments": false, "id": "60c3879e3410dc1bc0afa447", "active": true, "deleted": false, "created_date": "2021-06-11T15:58:17.663Z", "created_by": "5d361cb9119bb90a704acc08", "updated_date": "2021-06-11T15:58:17.663Z", "updated_by": "5d361cb9119bb90a704acc08", "clever_id": null }]
